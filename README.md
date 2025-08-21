@@ -26,7 +26,7 @@ Magnetic Resonance Imaging (MRI), Ultrasound (US), Computed Radiography (CR), et
 </p>
 
 ### Results
-
+ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | ROC Curve 1 | ROC Curve 2 |
 |-------------|-------------|
 | [ROC1](Results/roc1-2.pdf) | [ROC2](Results/roc2-2.pdf) |
