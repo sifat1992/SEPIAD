@@ -66,8 +66,13 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
     ├── eval_example.yaml
     ├── train_example.yaml               
     └── .gitignore                   
-    ├── README.md                       
+    ├── README.md
+├── requirements.txt                      
   ```
+
+## Install with 
+pip install -r requirements.txt
+
 #References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
    “PERCEPTUAL IMAGE ANOMALY DETECTION.” [arXiv:1909.05904](https://arxiv.org/pdf/1909.05904) 
