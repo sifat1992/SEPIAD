@@ -83,6 +83,9 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
 For questions, suggestions, or collaboration opportunities, feel free to reach out!  
 I’m happy to receive feedback and open to connecting with fellow researchers.
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
 
 ---
 
