@@ -55,7 +55,9 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
     ├── utils.py              
     ├── Attn_models.py               
     ├── layers.py               
-    ├── pg_networks.py              
+    ├── pg_networks.py
+    ├── eval_example.yaml
+    ├── train_example.yaml               
     └── .gitignore                   
     ├── README.md                       
   ```
