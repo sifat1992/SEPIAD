@@ -44,21 +44,21 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
     ├── roc2.pdf
     ├── recall1.pdf
     ├── recall2.pdf
-│   
-├── pg_decoders.py                      
-├── pg_encoders.py                
-├── evaluate.py         
-├── latent_dis.py             
-├── latent_model.py         
-├── optimizer.py                
-├── train.py   
-├── utils.py              
-├── Attn_models.py               
-├── layers.py               
-├── pg_networks.py              
-└── .gitignore                   
-├── README.md                       
-```
+├── codes
+|   ├── pg_decoders.py                      
+    ├── pg_encoders.py                
+    ├── evaluate.py         
+    ├── latent_dis.py             
+    ├── latent_model.py         
+    ├── optimizer.py                
+    ├── train.py   
+    ├── utils.py              
+    ├── Attn_models.py               
+    ├── layers.py               
+    ├── pg_networks.py              
+    └── .gitignore                   
+    ├── README.md                       
+  ```
 #References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
    “PERCEPTUAL IMAGE ANOMALY DETECTION.” [arXiv:1909.05904](https://arxiv.org/pdf/1909.05904) 
