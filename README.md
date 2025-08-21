@@ -1,14 +1,11 @@
 
 Attention Enhanced Perceptual Image Anomaly Detection for Ultrasound Imagery
-Key Features
 
-Perceptual Autoencoders
-
-Semi-supervised learning
-
-Anomaly detection
-
-Ultrasound imagery
+## Key Features
+- Perceptual Autoencoders  
+- Semi-supervised learning  
+- Anomaly detection  
+- Ultrasound imagery  
 
 #Abstract
 This project proposes a novel model, SEPIAD, integrating the Squeeze-and-Excitation (SE) attention block into the architecture of the Perceptual Image Anomaly Detection model (PIAD). The dataset used consisted of 2,813 images (2,014 normal and 799 abnormal) of abdominal organs, curated from 242 patients at MH Samorita Hospital and Medical College, Dhaka, Bangladesh.
@@ -17,14 +14,10 @@ PIAD leverages adversarial and perceptual losses trained solely on normal images
 
 After training, SEPIAD calculates abnormality as the perceptual dissimilarity between the input image and the closest generated image of the modeled data distribution. SEPIAD outperformed the PIAD baseline, achieving a ROC AUC of 0.95 — at least 8% higher than PIAD — demonstrating its effectiveness in ultrasound image analysis, which is inherently noisy, low-contrast, and difficult to interpret due to subtle organ boundaries.
 
-Dataset
-
-Custom curated ultrasound dataset
-
-Not publicly available due to privacy and sensitivity concerns
-
-Contact for access if needed for research collaboration
-
+## Dataset
+- Custom curated ultrasound dataset  
+- Not publicly available due to privacy and sensitivity concerns  
+- Contact for access if needed for research collaboration  
 
 # Motivation
 Semi-supervised or unsupervised deep learning in medical imaging is gaining momentum due to the lack of large, well-annotated datasets. Among imaging modalities such as X-rays, CT, MRI, Ultrasound (US), and CR, ultrasound is particularly challenging because of its noisy texture, low contrast, and subtle anatomical boundaries.
