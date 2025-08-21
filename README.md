@@ -43,7 +43,7 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
 | [PR1](Results/recall1-2.pdf) | [PR2](Results/recall2-2.pdf) |
 
 
-# Project sturcture
+# Project Structure
 ```
 ├── Results                     
 │   ├── git1.png
