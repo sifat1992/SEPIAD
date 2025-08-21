@@ -1,6 +1,5 @@
 
-#Attention Enhanced Perceptual Image Anomaly Detection for Ultrasound Imagery
-
+Attention Enhanced Perceptual Image Anomaly Detection for Ultrasound Imagery
 # Key features
 > Perceptual Autoencoders
 > Semi-supervised learning
