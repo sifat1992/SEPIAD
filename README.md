@@ -81,6 +81,7 @@ cd SEPIAD
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ## References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
