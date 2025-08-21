@@ -7,7 +7,7 @@ Attention Enhanced Perceptual Image Anomaly Detection for Ultrasound Imagery
 - Anomaly detection  
 - Ultrasound imagery  
 
-#Abstract
+## Abstract
 This project proposes a novel model, SEPIAD, integrating the Squeeze-and-Excitation (SE) attention block into the architecture of the Perceptual Image Anomaly Detection model (PIAD). The dataset used consisted of 2,813 images (2,014 normal and 799 abnormal) of abdominal organs, curated from 242 patients at MH Samorita Hospital and Medical College, Dhaka, Bangladesh.
 
 PIAD leverages adversarial and perceptual losses trained solely on normal images. To enhance this framework, we propose SEPIAD, a lightweight architecture that employs SE blocks to emphasize important feature channels, improving anomaly detection in ultrasound imagery without increasing model complexity.
@@ -19,7 +19,7 @@ After training, SEPIAD calculates abnormality as the perceptual dissimilarity be
 - Not publicly available due to privacy and sensitivity concerns  
 - Contact for access if needed for research collaboration  
 
-# Motivation
+## Motivation
 Semi-supervised or unsupervised deep learning in medical imaging is gaining momentum due to the lack of large, well-annotated datasets. Among imaging modalities such as X-rays, CT, MRI, Ultrasound (US), and CR, ultrasound is particularly challenging because of its noisy texture, low contrast, and subtle anatomical boundaries.
 
 The original PIAD model was tested on datasets like MNIST, CIFAR-10, Fashion-MNIST, COIL-100, LSUN, and CelebA. While PIAD provides a solid baseline, it often fails to capture the nuanced variations necessary for reliable detection in ultrasound data.
