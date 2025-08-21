@@ -8,7 +8,11 @@
 > Ultrasound Imagery
 
 #Abstract
-This project proposes a novel model, SEPIAD, with an integration of the Squeeze and Excitation attention block into the architecture of the Perceptual Image Anomaly Detection model, PIAD. The dataset used in this work consisted of 2813 images, with 2014 normal and 799 abnormal images of abdominal organs, curated from 242 patients at MH Samorita Hospital and Medical College in Dhaka, Bangladesh. Perceptual Image anomaly Detection (PIAD) leverages adversarial losses and perceptual losses trained solely on normal images. To enhancethis framework, we have proposed a lightweight architecture, SEPIAD, using the Squeeze and Excitation (SE) blocks to focus more on the important feature channels, enhancing anomaly detection on ultrasound images without raising the model complexity. After training, the proposed model, SEPIAD, calculates the abnormality of the input image as the perceptual dissimilarity between it and the closest generated image of the modeled data distribution. SEPIAD outperformed the baseline model, PIAD, achieving a Receiver Operating Characteristic Area Under the Curve (ROC AUC) of 0.95, outperforming the baseline model by at least 8%, proving the model’s effectiveness in Ultrasound image analysis, which has an inherently noisy structure, low contrast, and subtle organ boundaries.
+This project proposes a novel model, SEPIAD, integrating the Squeeze-and-Excitation (SE) attention block into the architecture of the Perceptual Image Anomaly Detection model (PIAD). The dataset used consisted of 2,813 images (2,014 normal and 799 abnormal) of abdominal organs, curated from 242 patients at MH Samorita Hospital and Medical College, Dhaka, Bangladesh.
+
+PIAD leverages adversarial and perceptual losses trained solely on normal images. To enhance this framework, we propose SEPIAD, a lightweight architecture that employs SE blocks to emphasize important feature channels, improving anomaly detection in ultrasound imagery without increasing model complexity.
+
+After training, SEPIAD calculates abnormality as the perceptual dissimilarity between the input image and the closest generated image of the modeled data distribution. SEPIAD outperformed the PIAD baseline, achieving a ROC AUC of 0.95 — at least 8% higher than PIAD — demonstrating its effectiveness in ultrasound image analysis, which is inherently noisy, low-contrast, and difficult to interpret due to subtle organ boundaries.
 
 # Dataset
 > Custom curated Ultrasound dataset.
@@ -16,8 +20,11 @@ This project proposes a novel model, SEPIAD, with an integration of the Squeeze 
 > Contact for access if needed for research colloboration.
 
 # Motivation
-Seme-supervised or unsupervised deep learning in medical image processing is getting more attention due to the lack of availability of large and properly annotated datasets. Among various modalities, namely X-rays, Computed Tomography (CT) Scan,
-Magnetic Resonance Imaging (MRI), Ultrasound (US), Computed Radiography (CR), etc., US images are often the most challenging to work with due to their inherently noisy structure, low contrast, and subtle organ boundaries. It is often hard to process the Us images. The original PIAd model was tested on MNIST and CIFAR-10, fMNIST and COIL-100, LSUN, and CelebA dataset. PIAD provide a solid baseline for the US images but often fail to capture the nuanced variations needed for reliable detection. To address this gap, we introduce SEPIAD, which enhances PIAD with Squeeze-and-Excitation attention, enabling the model to prioritize the most informative feature channels. The goal is simple but critical: deliver a lightweight, accurate, and clinically meaningful anomaly detection system that can better assist radiologists in real-world ultrasound analysis.
+Semi-supervised or unsupervised deep learning in medical imaging is gaining momentum due to the lack of large, well-annotated datasets. Among imaging modalities such as X-rays, CT, MRI, Ultrasound (US), and CR, ultrasound is particularly challenging because of its noisy texture, low contrast, and subtle anatomical boundaries.
+
+The original PIAD model was tested on datasets like MNIST, CIFAR-10, Fashion-MNIST, COIL-100, LSUN, and CelebA. While PIAD provides a solid baseline, it often fails to capture the nuanced variations necessary for reliable detection in ultrasound data.
+
+To address this, we introduce SEPIAD, which augments PIAD with SE attention, enabling the model to focus on the most informative feature channels. The aim is straightforward but critical: deliver a lightweight, accurate, and clinically meaningful anomaly detection system to better assist radiologists in real-world ultrasound analysis.
 
 ### Dataset Breakdown
 
