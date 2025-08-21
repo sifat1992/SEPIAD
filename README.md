@@ -25,27 +25,39 @@ Magnetic Resonance Imaging (MRI), Ultrasound (US), Computed Radiography (CR), et
   <img src="Results/git1.png" alt="Comparison Table" width="600"/>
 </p>
 
+### Results
+
+| ROC Curve 1 | ROC Curve 2 |
+|-------------|-------------|
+| [ROC1](Results/roc1-2.pdf) | [ROC2](Results/roc2-2.pdf) |
+
+| PR Curve 1  | PR Curve 2  |
+|-------------|-------------|
+| [PR1](Results/recall1-2.pdf) | [PR2](Results/recall2-2.pdf) |
+
+
 # Project sturcture
 ```
-├── assets/                         # Folder containing sample dataset images
-│   ├── healthy_example1.png
-│   ├── abnormal_example1.png
-├── Results                         # Folder containing images of results
+├── Results                     
 │   ├── git1.png
+    ├── roc1.pdf
+    ├── roc2.pdf
+    ├── recall1.pdf
+    ├── recall2.pdf
 │   
-├── pg_decoders.py                      # Training and evaluation using AlexNet
-├── pg_encoders.py                    # Training and evaluation using DenseNet121
-├── evaluate.py           # Training and evaluation using ResNet50
-├── latent_dis.py             # Training and evaluation using VGG16
-├── latent_model.py         # Training and evaluation of custom CNN
-├── optimizer.py                  # Custom CNN with Learnable 2D Gaussian layer
-├── train.py    # Script defining the learnable 2D Gaussian layer
-├── utils.py               # Dataset loading and preprocessing
-├── Attn_models.py               # Dataset loading and preprocessing
-├── layers.py               # Dataset loading and preprocessing
-├── pg_networks.py               # Dataset loading and preprocessing
-└── .gitignore                      # Specifies files and folders to be ignored by Git
-├── README.md                       # Reading this!
+├── pg_decoders.py                      
+├── pg_encoders.py                
+├── evaluate.py         
+├── latent_dis.py             
+├── latent_model.py         
+├── optimizer.py                
+├── train.py   
+├── utils.py              
+├── Attn_models.py               
+├── layers.py               
+├── pg_networks.py              
+└── .gitignore                   
+├── README.md                       
 ```
 #References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
