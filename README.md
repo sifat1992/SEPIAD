@@ -70,15 +70,24 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
 ├── requirements.txt                      
   ```
 
-## Install with 
+## Installation
+
+Clone the repository and install the dependencies.
+
+```bash
+# Clone this repo
+git clone https://github.com/sifat1992/SEPIAD.git
+cd SEPIAD
+
+# Install dependencies
 pip install -r requirements.txt
 
-#References
+## References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
    “PERCEPTUAL IMAGE ANOMALY DETECTION.” [arXiv:1909.05904](https://arxiv.org/pdf/1909.05904) 
 
 
-# Author
+## Author
 - **Sifat Z. Karim** — Graduate Student, Mississippi State University  
   📧 [sifatzinakarim1992@gmail.com](mailto:sifatzinakarim1992@gmail.com)  
   🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
@@ -93,4 +102,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ---
+
+
 
