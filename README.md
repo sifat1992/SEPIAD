@@ -21,7 +21,7 @@ model’s effectiveness in Ultrasound image analysis, which has an inherently no
 ### Dataset Breakdown
 
 <p align="center">
-  <img src="results/git1.png" alt="Comparison Table" width="600"/>
+  <img src="Results/git1.png" alt="Comparison Table" width="600"/>
 </p>
 
 # Project sturcture
