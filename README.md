@@ -17,7 +17,7 @@ After training, SEPIAD calculates abnormality as the perceptual dissimilarity be
 ## Dataset
 - Custom curated ultrasound dataset  
 - Not publicly available due to privacy and sensitivity concerns  
-- Contact for access if needed for research collaboration  
+ 
 
 ## Motivation
 Semi-supervised or unsupervised deep learning in medical imaging is gaining momentum due to the lack of large, well-annotated datasets. Among imaging modalities such as X-rays, CT, MRI, Ultrasound (US), and CR, ultrasound is particularly challenging because of its noisy texture, low contrast, and subtle anatomical boundaries.
