@@ -26,6 +26,20 @@ The original PIAD model was tested on datasets like MNIST, CIFAR-10, Fashion-MNI
 
 To address this, we introduce SEPIAD, which augments PIAD with SE attention, enabling the model to focus on the most informative feature channels. The aim is straightforward but critical: deliver a lightweight, accurate, and clinically meaningful anomaly detection system to better assist radiologists in real-world ultrasound analysis.
 
+## Dataset Structure:
+```
+├── us                    
+│   ├──healthy_only_2014
+    ├──train_fif_list_1800.txt
+    ├── val_fif_list_214.txt
+
+├── us
+|   ├── images                     
+      ├── test_normal_2014.txt
+      ├──  test_abnormal_799.txt             
+  ```
+
+
 ## Dataset Summary
 
 | Category   | Subset     | Count | Total |
