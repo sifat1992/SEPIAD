@@ -29,11 +29,11 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
 ## Dataset Structure:
 ```
 ├── us                    
-│   ├──healthy_only_2014
+│   ├── healthy_only_2014
       ├── 1.jpg
       ├── 2.jpg
       ├── 3.jpg.....
-    ├──train_fif_list_1800.txt
+    ├── train_fif_list_1800.txt
     ├── val_fif_list_214.txt
 
 ├── us
@@ -42,7 +42,7 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
            ├── 2.jpg
            ├── 3.jpg.....                   
       ├── test_normal_2014.txt
-      ├──  test_abnormal_799.txt             
+      ├── test_abnormal_799.txt             
   ```
 
 
