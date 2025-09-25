@@ -55,6 +55,21 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
 | Unhealthy  | Test       | 799   | 799   |
 
 
+## Sample Images from the Dataset:
+
+##  Sample Ultrasound Images
+
+<p align="center">
+  <img src="assets/1.jpg" width="250" />
+  <img src="assets/2.jpg" width="250" />
+  <img src="assets/3.jpg" width="250" />
+</p>
+
+<p align="center">
+  <img src="assets/4.jpg" width="250" />
+  <img src="assets/5.jpg" width="250" />
+</p>
+
 ### Results
 ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | ROC Curve 1 | ROC Curve 2 |
