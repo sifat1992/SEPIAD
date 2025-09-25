@@ -60,14 +60,14 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
 ##  Sample Ultrasound Images
 
 <p align="center">
-  <img src="assets/1 (1).jpg" width="250" />
-  <img src="assets/2 (2).jpg" width="250" />
-  <img src="assets/3 (1).jpg" width="250" />
+  <img src="Assets/1 (1).jpg" width="250" />
+  <img src="Assets/2 (2).jpg" width="250" />
+  <img src="Assets/3 (1).jpg" width="250" />
 </p>
 
 <p align="center">
-  <img src="assets/4.jpg" width="250" />
-  <img src="assets/5.jpg" width="250" />
+  <img src="Assets/4.jpg" width="250" />
+  <img src="Assets/5.jpg" width="250" />
 </p>
 
 ### Results
