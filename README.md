@@ -72,7 +72,7 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
 
 ## Architecture
  <p align="center">
-  <img src="Assets/archi.svg" width="250" />
+  <img src="Assets/arch.svg" width="250" />
 </p>
 
 ### Results
