@@ -30,11 +30,17 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
 ```
 ├── us                    
 │   ├──healthy_only_2014
+      ├── 1.jpg
+      ├── 2.jpg
+      ├── 3.jpg.....
     ├──train_fif_list_1800.txt
     ├── val_fif_list_214.txt
 
 ├── us
-|   ├── images                     
+|   ├── images
+           ├── 1.jpg
+           ├── 2.jpg
+           ├── 3.jpg.....                   
       ├── test_normal_2014.txt
       ├──  test_abnormal_799.txt             
   ```
