@@ -70,6 +70,11 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
   <img src="Assets/5.jpg" width="250" />
 </p>
 
+## Architecture
+ <p align="center">
+  <img src="Assets/archi.jpg" width="250" />
+</p>
+
 ### Results
 ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | ROC Curve 1 | ROC Curve 2 |
