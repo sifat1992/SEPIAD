@@ -75,6 +75,10 @@ To address this, we introduce SEPIAD, which augments PIAD with SE attention, ena
   <img src="Assets/arch.svg" width="250" />
 </p>
 
+Figure : Proposed SEPIAD architecture. The encoder (ESE) and generator (GSE) are enhanced with Squeeze-and-Excitation (SE) blocks. The model learns mappings between
+image space X and latent space Z while being trained with adversarial and reconstruction objectives.
+
+
 ### Results
 ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | ROC Curve 1 | ROC Curve 2 |
