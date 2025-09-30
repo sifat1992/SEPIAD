@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from enum import Enum
 import torch
 from torch.nn.functional import binary_cross_entropy_with_logits
-from anomaly_detection.dpa.losses import wasserstein_loss, gradient_penalty, mse_loss, compute_grad2
+from losses import wasserstein_loss, gradient_penalty, mse_loss, compute_grad2
 
 
 class AbstractAdversarialLoss(ABC):
@@ -172,5 +172,6 @@ ADVERSARIAL_LOSSES = {
     AdversarialLossType.least_squared: LsLoss,
     AdversarialLossType.nnl: NNL
 }
+
 
 
