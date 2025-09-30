@@ -4,9 +4,9 @@ from collections import OrderedDict
 
 from torch import nn
 
-from anomaly_detection.dpa.pg_networks import ProgGrowNetworks, ProgGrowStageType, STABNetwork, TRNSNetwork, \
+from pg_networks import ProgGrowNetworks, ProgGrowStageType, STABNetwork, TRNSNetwork, \
     NetworkType
-from anomaly_detection.dpa.layers import ConvBlock, get_act_layer, PreActResnetBlock, PreActResnetBlockUp, \
+from layers import ConvBlock, get_act_layer, PreActResnetBlock, PreActResnetBlockUp, \
     PixelNormLayer, FadeinLayer, ConcatLayer
 
 
@@ -241,3 +241,4 @@ DECODER_NETWORKS = {
     NetworkType.residual9: Resnet9DecoderNetworks,
     NetworkType.residual18: Resnet18DecoderNetworks,
 }
+
