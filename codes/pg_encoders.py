@@ -4,9 +4,9 @@ from collections import OrderedDict
 
 from torch import nn
 
-from anomaly_detection.dpa.pg_networks import ProgGrowNetworks, ProgGrowStageType, \
+from pg_networks import ProgGrowNetworks, ProgGrowStageType, \
     STABNetwork, TRNSNetwork, NetworkType
-from anomaly_detection.dpa.layers import PreActResnetBlockDown, ConvBlock, PreActResnetBlock, get_act_layer, \
+from layers import PreActResnetBlockDown, ConvBlock, PreActResnetBlock, get_act_layer, \
     get_pool_layer, MinibatchStdDevLayer, FadeinLayer, ConcatLayer
 
 #################update 1 se######################
@@ -260,4 +260,5 @@ ENCODER_NETWORKS = {
     NetworkType.regular: RegularEncoderNetworks,
     NetworkType.residual9: Resnet9EncoderNetworks,
     NetworkType.residual18: Resnet18EncoderNetworks,
+
 }
