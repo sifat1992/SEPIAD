@@ -1,7 +1,7 @@
 from torch import nn
 from torch.optim import Adam
 
-from anomaly_detection.piad.utils import GradientNormHelper
+from utils import GradientNormHelper
 
 
 class Optimizer(nn.Module):
@@ -120,3 +120,4 @@ class Optimizer(nn.Module):
         }
 
         return loss_info
+
