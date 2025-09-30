@@ -5,17 +5,17 @@ import torch
 import numpy as np
 import yaml
 
-from anomaly_detection.utils.loggers import Logger
-from anomaly_detection.dpa.pg_networks import ProgGrowStageType, NetworkType
-from anomaly_detection.piad.latent_dis import LatentDiscriminator
-from anomaly_detection.dpa.pg_decoders import DECODER_NETWORKS
-from anomaly_detection.dpa.pg_encoders import ENCODER_NETWORKS
-from anomaly_detection.dpa.data_generators import ProgGrowImageGenerator
-from anomaly_detection.utils.datasets import DatasetType, DATASETS
-from anomaly_detection.utils.transforms import TRANSFORMS
-from anomaly_detection.piad.latent_model import LatentModel
-from anomaly_detection.dpa.adv_losses import ADVERSARIAL_LOSSES, AdversarialLossType
-from anomaly_detection.dpa.rec_losses import RECONSTRUCTION_LOSSES, ReconstructionLossType
+from loggers import Logger
+from pg_networks import ProgGrowStageType, NetworkType
+from latent_dis import LatentDiscriminator
+from pg_decoders import DECODER_NETWORKS
+from pg_encoders import ENCODER_NETWORKS
+from data_generators import ProgGrowImageGenerator
+from datasets import DatasetType, DATASETS
+from transforms import TRANSFORMS
+from latent_model import LatentModel
+from adv_losses import ADVERSARIAL_LOSSES, AdversarialLossType
+from rec_losses import RECONSTRUCTION_LOSSES, ReconstructionLossType
 
 from anomaly_detection.piad.optimizer import Optimizer
 
@@ -403,3 +403,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
