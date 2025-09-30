@@ -5,7 +5,7 @@ from torch import nn
 
 from layers import FadeinLayer, ConcatLayer, EqualLayer
 from pg_networks import ProgGrowStageType
-from utils.datasets import CIFAR10Dataset, SVHNDataset
+from datasets import CIFAR10Dataset, SVHNDataset
 
 
 class AbstractProgGrowGenerator(ABC):
@@ -116,4 +116,5 @@ class MixResolution(nn.Module):
 
     def forward(self, x):
         return self.mix_res_model(x)
+
 
