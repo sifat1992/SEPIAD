@@ -1,7 +1,7 @@
 from PIL import ImageOps
 from torchvision import transforms
 
-from anomaly_detection.utils.datasets import DatasetType
+from datasets import DatasetType
 
 
 class EqualizeHistogram(object):
