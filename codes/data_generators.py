@@ -3,9 +3,9 @@ from abc import ABC, abstractmethod
 from torch.utils.data.dataloader import DataLoader
 from torch import nn
 
-from anomaly_detection.dpa.layers import FadeinLayer, ConcatLayer, EqualLayer
-from anomaly_detection.dpa.pg_networks import ProgGrowStageType
-from anomaly_detection.utils.datasets import CIFAR10Dataset, SVHNDataset
+from layers import FadeinLayer, ConcatLayer, EqualLayer
+from pg_networks import ProgGrowStageType
+from utils.datasets import CIFAR10Dataset, SVHNDataset
 
 
 class AbstractProgGrowGenerator(ABC):
@@ -116,3 +116,4 @@ class MixResolution(nn.Module):
 
     def forward(self, x):
         return self.mix_res_model(x)
+
