@@ -2,8 +2,8 @@ import argparse
 import yaml
 import time
 
-from anomaly_detection.piad.train import Trainer
-from anomaly_detection.piad.evaluate import evaluate
+from train import Trainer
+from evaluate import evaluate
 
 
 def _load_config(path):
@@ -45,3 +45,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
