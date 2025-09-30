@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from anomaly_detection.dpa.feature_extractor import PretrainedVGG19FeatureExtractor
+from feature_extractor import PretrainedVGG19FeatureExtractor
 
 
 class L2Loss(nn.Module):
@@ -216,3 +216,4 @@ RECONSTRUCTION_LOSSES = {
     ReconstructionLossType.l1: L1Loss,
     ReconstructionLossType.l2: L2Loss
 }
+
