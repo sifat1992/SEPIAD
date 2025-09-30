@@ -8,9 +8,9 @@ from sklearn.metrics import roc_auc_score
 import numpy as np
 import pandas as pd
 
-from anomaly_detection.piad.train import Trainer
-from anomaly_detection.utils.datasets import DatasetType, DATASETS
-from anomaly_detection.utils.transforms import TRANSFORMS
+from train import Trainer
+from datasets import DatasetType, DATASETS
+from transforms import TRANSFORMS
 
 
 def evaluate(config):
@@ -105,3 +105,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
