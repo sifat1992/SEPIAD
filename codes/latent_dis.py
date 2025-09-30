@@ -1,6 +1,6 @@
 from torch import nn
 
-from anomaly_detection.dpa.layers import ConvBlock
+from layers import ConvBlock
 
 
 class LatentDiscriminator(nn.Module):
@@ -32,3 +32,4 @@ class LatentDiscriminator(nn.Module):
     def forward(self, x):
         x = x.reshape(x.size(0), -1, 1, 1)
         return self.model(x)
+
