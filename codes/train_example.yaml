@@ -117,7 +117,7 @@ enc:
     # for example if latent res = 1, image res = 64,
     # encoder consists from blocks of convolution for resolutions:  4, 8, 16, 32, 64
     # Therefore, you should specify 5 numbers, for example: [32, 64, 128, 256, 512]
-    inner_dims: [64, 128, 256, 256] # [96, 192, 256, 256] 
+    inner_dims: [96, 192, 256, 256] # [96, 192, 256, 256] 
 
 # hyperparameters of decoder
 dec:
@@ -144,7 +144,7 @@ ddis:
     # for example if latent res = 1, image res = 64,
     # decoder consists from blocks of convolution for resolutions: 64, 32, 16, 8, 4
     # Therefore, you should specify 5 numbers, for example: [512, 128, 64, 32, 16]
-    inner_dims: [32, 64, 128, 128] 
+    inner_dims: [64, 128, 128, 64] 
     #[32, 64, 128, 128], [64, 128, 128, 64]
 
 # hyperparameters of latent discriminator
@@ -190,3 +190,4 @@ latent_adv_loss:
     lambd: 1
     gradient_penalty: 10
     norm_penalty: 0.001
+
