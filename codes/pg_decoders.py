@@ -155,7 +155,7 @@ class Resnet9DecoderNetworks(AbstactDecoderNetworks):
         prev_nf = self._get_num_filters(resolution / 2)
         nf = self._get_num_filters(resolution)
         layers = [
-            self._get_block(PreActResnetBlockUp, prev_nf, nf),  SEAttention(nf, reduction=8), ###### 16 to 8
+            self._get_block(PreActResnetBlockUp, prev_nf, nf),  SEAttention(nf, reduction=8), 
         ]############SEAttention(nf, reduction=16), #############################################################
         return self._init_layers(nn.Sequential(*layers))
 
@@ -241,4 +241,5 @@ DECODER_NETWORKS = {
     NetworkType.residual9: Resnet9DecoderNetworks,
     NetworkType.residual18: Resnet18DecoderNetworks,
 }
+
 
