@@ -83,11 +83,11 @@ image space X and latent space Z while being trained with adversarial and recons
 ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | ROC Curve 1 | ROC Curve 2 |
 |-------------|-------------|
-| [ROC1](Results/roc1-2.pdf) | [ROC2](Results/roc2-2.pdf) |
+| [ROC1](Results/0.87_roc.pdf) | [ROC2](Results/0.94_roc-2.pdf) |
 
 | PR Curve 1  | PR Curve 2  |
 |-------------|-------------|
-| [PR1](Results/recall1-2.pdf) | [PR2](Results/recall2-2.pdf) |
+| [PR1](Results/0.87_pr.pdf) | [PR2](Results/0.94_pr.pdf) |
 
 
 # Project Structure
