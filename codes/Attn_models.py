@@ -16,7 +16,7 @@ print(f"Using device: {device}")
 #SE==============================================================================================================
 
 class SEAttention(nn.Module):
-    def __init__(self, channel,reduction=8):   # 16 got roc auc 0.54
+    def __init__(self, channel,reduction=8):   
         super().__init__()
         self.avg_pool = nn.AdaptiveAvgPool2d(1)
         self.fc = nn.Sequential(
@@ -33,3 +33,4 @@ class SEAttention(nn.Module):
         return x * y.expand_as(x)
     
  
+
