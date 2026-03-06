@@ -139,6 +139,8 @@ The curated ultrasound image dataset used in this research is publicly available
 https://scholarsjunction.msstate.edu/research-data/5/
 Please cite the dataset if used in research.
 
+📦 Dataset available: https://scholarsjunction.msstate.edu/research-data/5/
+
 ## References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
    “PERCEPTUAL IMAGE ANOMALY DETECTION.” [arXiv:1909.05904](https://arxiv.org/pdf/1909.05904) 
