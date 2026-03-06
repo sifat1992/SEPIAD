@@ -134,9 +134,10 @@ cd SEPIAD
 pip install -r requirements.txt
 ```
 
-# Dataset: 
-A curated ultrasound image dataset developed for this research is publicly available at Mississippi State University Scholars Junction:  
+# Public Dataset: 
+The curated ultrasound image dataset used in this research is publicly available via Mississippi State University Scholars Junction:  
 https://scholarsjunction.msstate.edu/research-data/5/
+Please cite the dataset if used in research.
 
 ## References
 1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
